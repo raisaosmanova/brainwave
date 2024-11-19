@@ -1,0 +1,149 @@
+.sign{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 26px;
+    color: rgba(22, 28, 45, 1);
+    font-weight: 700;
+    font-size: 24px;
+    font-family: var(--fontRubik);
+
+}
+.form{
+    background-color: rgba(244, 247, 250, 1);
+}
+.form_head{
+    padding-top: 125px;
+ text-align: center;
+ padding-bottom: 55px;
+
+}
+.form_head h1{
+ font-family: var(--fontRoboto);
+padding-bottom: 34px;
+font-weight: 700;
+font-size: 60px;
+line-height: 65px;
+color: rgba(22, 28, 45, 1);
+}
+.form_head h1 p{
+    font-family: var(--fontRoboto);
+font-weight: 400;
+font-size: 19px;
+line-height: 32px;
+color: rgba(22, 28, 45, 1);
+}
+form{
+    background-color: rgba(255, 255, 255, 1);
+}
+.info_form form{
+    font-family: var(--fontRoboto); 
+    border-radius: 10px;
+    border:1px solid rgba(231, 233, 237, 1);
+    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+height: 581px;
+padding: 26px 25px 0px 25px;
+box-shadow: 0px 34px 33px -23px rgba(22, 28, 45, 0.13);
+gap: 20px;
+    
+}
+
+.info_form form input{
+    padding: 12px 20px 12px 18px;
+    border-radius: 8px;
+    border:1px solid rgba(231, 233, 237, 1);
+}
+.sign_btn{
+   padding-top: 20px;
+    margin: 0 auto;
+}
+.sign_btn button{
+width: 300px;
+height: 59px;
+border-radius: 8px;
+background-color: var(--mainColor);
+color: rgba(255, 255, 255, 1);
+font-weight: 700;
+line-height: 32px;
+font-size: 17px;
+border: none;
+}
+.form_footer{
+    text-align: center;
+    padding-top: 46px;
+    padding-bottom: 137px;
+}
+.form_footer p{
+font-weight: 400;
+font-size: 17px;
+line-height: 29px;
+}
+.form_footer span{
+color:  var(--mainColor);
+}
+.footer{
+    font-family: var(--fontRoboto);
+    height: 69px;
+    background-color: rgba(255, 255, 255, 1);;
+}
+ 
+footer{
+    font-family: var(--fontRoboto);
+    background-color: rgba(22, 28, 45, 1);
+    padding-top: 122px;
+    padding-bottom: 128px;
+    
+}
+
+.brainwave{
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+.brainwave_left h4{
+color: rgba(255, 255, 255, 1);
+font-weight: 700;
+font-size: 28px;
+line-height: 33.18px;
+letter-spacing: -0.16px;
+}
+
+.brainwave_left p{
+    padding-top: 36px;
+    padding-bottom: 34px;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+letter-spacing: -0.1px;
+color: rgba(255, 255, 255, 1);
+}
+
+.brainwave li{
+    list-style: none;
+
+}
+.brainwave_right{
+    display: flex;
+}
+.right_branwave ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+
+}
+.right_branwave  p{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+.brainwave_left_list{
+    display: flex;
+    gap: 24px;
+} 
+ 
