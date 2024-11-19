@@ -1,0 +1,248 @@
+header .head{
+    padding-top: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head_logo h3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33.18px;
+    font-family: var(--fontRubik);
+}
+.header_nav .nav_list{
+    display: flex;
+    gap: 20px;
+    
+}
+.header_nav .nav_list .nav_items .nav_item{
+    text-decoration: none;
+    font-family: var(--fontRoboto);
+    font-size: 15px;
+    line-height: 26px;
+    color: var(--textColor);
+    font-weight: 700;
+
+
+}
+.header_nav .nav_list .nav_items .active{
+    color: rgba(251, 109, 69, 1);
+}
+.login_signup{
+    display: flex;
+    gap: 25px;
+}
+.login_signup a{
+    text-decoration: none;
+    font-family: var(--fontRoboto);
+    font-size: 15px;
+    line-height: 26px;
+    color: var(--textColor);
+    font-weight: 700;
+
+}
+.about_content {
+    
+    padding-top: 109px;
+}
+.about_content_head{
+   
+    text-align: center;
+}
+.about_content_head h2{
+    padding-bottom: 44px;
+font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    color: var(--textColor);
+}
+.about_content_head p{
+    margin: 0 auto;
+    max-width: 550px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    color: #161C2D;
+    font-family: var(--fontRoboto);
+}
+.about_content_img{
+    text-align: center;
+    padding-top: 58px;
+    padding-bottom: 141px;
+}
+.about_content_customers{
+    padding-bottom: 86px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about_content_left{
+    max-width: 450px;
+}
+.about_content_left h3{
+    font-family: var(--fontRoboto);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--textColor);
+}
+.about_content_right{
+    max-width: 469px;
+}
+.about_content_right p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    color: #161C2D;
+    font-family: var(--fontRoboto);
+}
+
+.worldwide{
+    background-color: #F4F7FA;
+    min-height: 890px;
+    padding-top: 139px;
+}
+
+.worldwide_content {
+display: flex;
+    justify-content: space-evenly;
+gap: 95px;
+}
+.worldwide_content_left {
+    display: flex;
+    flex-direction: row; 
+    gap: 15px;
+}
+
+.worldwide_content_left_img1, 
+.worldwide_content_left_img2 {
+    display: flex;
+    flex-direction: column; 
+    gap: 19px; 
+}
+
+.worldwide_content_left_img2 {
+    margin-top: 46px; 
+}
+.worldwide_content_right{
+    max-width: 495px;
+   padding-top: 130px;
+    
+}
+
+.worldwide_content_right h2{
+    padding-bottom: 38px;
+font-weight: 700;
+    font-size: 48px;
+  line-height: 58px;
+  color: #161C2D;
+  font-family: var(--fontRoboto);
+}
+.worldwide_content_right p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    color: #161C2D;
+    font-family: var(--fontRoboto);
+}
+
+.meet{
+    margin: 107px;
+}
+.meet_content{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.meet_content h2{
+font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #161C2D;
+    font-family: var(--fontRoboto);
+}
+.meet_content p{
+font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    color: #161C2D;
+    font-family: var(--fontRoboto);
+}
+.meet_team{
+    max-width: 1158px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.meet_team_item h3{
+    padding-top: 25px;
+font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: var(--textColor);
+    font-family: var(--fontRoboto);
+}
+.meet_team_item p{
+font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    color: #161C2D;
+    font-family: var(--fontRoboto);
+}
+
+footer{
+    font-family: var(--fontRoboto);
+    background-color: rgba(22, 28, 45, 1);
+    padding-top: 122px;
+    padding-bottom: 128px;
+    
+}
+
+.brainwave{
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+.brainwave_left h4{
+color: rgba(255, 255, 255, 1);
+font-weight: 700;
+font-size: 28px;
+line-height: 33.18px;
+letter-spacing: -0.16px;
+}
+
+.brainwave_left p{
+    padding-top: 36px;
+    padding-bottom: 34px;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+letter-spacing: -0.1px;
+color: rgba(255, 255, 255, 1);
+}
+
+.brainwave li{
+    list-style: none;
+
+}
+.brainwave_right{
+    display: flex;
+}
+.right_branwave ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+
+}
+.right_branwave  p{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+.brainwave_left_list{
+    display: flex;
+    gap: 24px;
+} 
